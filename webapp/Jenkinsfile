@@ -35,6 +35,7 @@ pipeline {
           }
         }
       }
+    }
     stage('Schedule Staging Deployment') {
         when {
           branch 'master'
@@ -45,5 +46,5 @@ pipeline {
       }
     }
   }
-}
+
 
